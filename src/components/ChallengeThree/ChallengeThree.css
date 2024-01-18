@@ -1,0 +1,87 @@
+.todoResult {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputToDo {
+    margin: 10px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.toDoList {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.toDoList > h3 {
+    align-self: start;
+    padding: 7px 0;
+}
+
+.toDoList > ul {
+    list-style: none;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 1);
+}
+
+.toDoList > ul > li {
+    font-size: 18px;
+    padding: 1px 2px ;
+}
+
+.toDoList > ul > li:nth-child(odd) {
+    background-color: #FAEEC5;
+}
+
+.inputToDo > label {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.inputToDo input {
+    margin: 0 5px ;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    border-top: 0; 
+    border-left: 0;
+    border-right: 1px solid rgba(0, 0, 0, 0.8); 
+    font-size: 16px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.inputToDo input:focus {
+    outline: none;
+}
+
+.inputToDo button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 5px;
+    font-weight: 600;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.deleteIcon {
+    margin-left: auto;
+    display: none;
+}
+
+.deleteIcon:hover {
+    cursor: pointer;
+}
+
+.taskItemPgraph {
+    display: flex;
+    align-items: center;
+}
+
+.taskItemPgraph:hover .deleteIcon {
+    display: block;
+}

@@ -1,0 +1,7 @@
+.credits {
+    padding: 8px;
+}
+
+.credits > ul {
+    list-style: none;
+}

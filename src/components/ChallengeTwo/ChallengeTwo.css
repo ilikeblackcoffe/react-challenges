@@ -1,0 +1,27 @@
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}
+
+.gray {
+    background-color: gray;
+}
+
+.gap {
+    gap: 10px;
+}
+
+.Timer {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.timerPgraph {
+    font-size: 20px;
+}
