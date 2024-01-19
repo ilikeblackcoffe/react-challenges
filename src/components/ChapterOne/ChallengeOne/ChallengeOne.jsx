@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Challenge.css"
-import challengesList from "../../assets/challengesList";
+import challengesList from "../../../assets/challengesLists/chapterOne/challengesList";
 
 function ChallengeOne() {
   

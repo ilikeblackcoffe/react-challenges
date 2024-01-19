@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./ChallengeFour.css";
 import { Link } from "react-router-dom";
-import challengesList from "../../assets/challengesList";
+import challengesList from "../../../assets/challengesLists/chapterOne/challengesList";
 
 function ChallengeFour() {
   const [progress, setProgress] = useState(0);

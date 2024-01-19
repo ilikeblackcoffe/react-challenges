@@ -1,26 +1,35 @@
-import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
-import "./App.css";
+// App.jsx
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./components/Home/Home";
-import ChallengeOne from "./components/ChallengeOne/ChallengeOne";
-import ChallengeTwo from "./components/ChallengeTwo/ChallengeTwo";
-import ChallengeThree from "./components/ChallengeThree/ChallengeThree";
-import ChallengeFour from "./components/ChallengeFour/ChallengeFour";
-
+import ChallengeOne from "./components/ChapterOne/ChallengeOne/ChallengeOne";
+import ChallengeTwo from "./components/ChapterOne/ChallengeTwo/ChallengeTwo";
+import ChallengeThree from "./components/ChapterOne/ChallengeThree/ChallengeThree";
+import ChallengeFour from "./components/ChapterOne/ChallengeFour/ChallengeFour";
+import ChallengeFive from "./components/ChapterOne/ChallengeFive/ChallengeFive";
+import ChallengeSix from "./components/ChapterOne/ChallengeSix/ChallengeSix";
+import HomeChapterOne from "./components/ChapterOne/HomeChapterOne";
+import HomeChapterTwo from "./components/ChapterTwo/HomeChapterTwo";
+import C2_ChallengeOne from "./components/ChapterTwo/C2_ChallengeOne/C2_ChallengeOne";
 
 
 function App() {
   return (
     <Router>
-     
-        <Routes>
-          <Route path="/" Component={Home} />
-          <Route path="/challengeOne" Component={ChallengeOne } />
-          <Route path="/challengeTwo" Component={ChallengeTwo } />
-          <Route path="/challengeThree" Component={ChallengeThree } />
-          <Route path="/challengeFour" Component={ChallengeFour } />
-          
-        </Routes>
+      <Routes>
+        <Route path="/" element={<HomeChapterOne />} />
+
+        <Route path="/challengeOne" element={<ChallengeOne />} />
+        <Route path="/challengeTwo" element={<ChallengeTwo />} />
+        <Route path="/challengeThree" element={<ChallengeThree />} />
+        <Route path="/challengeFour" element={<ChallengeFour />} />
+        <Route path="/challengeFive" element={<ChallengeFive />} />
+        <Route path="/challengeSix" element={<ChallengeSix />} />
+
+        <Route path="/ChapterTwo/" element={<HomeChapterTwo />} />
+        <Route path="/ChapterTwo/C2_ChallengeOne" element={<C2_ChallengeOne />} />
         
+      </Routes>
     </Router>
   );
 }

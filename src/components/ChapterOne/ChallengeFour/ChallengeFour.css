@@ -29,6 +29,6 @@
     border: 1px transparent;
     border-radius: 15px;
     height: 26px;
+    transition: .2s ease;
 }
 
-.percentNumberProg {}

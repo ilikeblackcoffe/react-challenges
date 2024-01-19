@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import challengesList from "../../assets/challengesList";
+import challengesList from "../../../assets/challengesLists/chapterOne/challengesList";
 import { Link } from "react-router-dom";
 import "./ChallengeTwo.css";
 

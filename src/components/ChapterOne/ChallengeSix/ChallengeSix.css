@@ -1,0 +1,57 @@
+.startSessionChallengeSix {
+    margin: 20px 0;
+}
+
+.startSessionChallengeSix > button {
+    padding: 12px;
+    background-color: green;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    border: 1px transparent;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.challengeSixResult {
+    display: none;
+    padding: 14px;
+    place-items: center;
+}
+
+.countdownSix {
+    color: orangered;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.pointsSix {
+    justify-self: center;
+    padding: 6px;
+    background-color: rgba(0, 0, 0, .9);
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.clickmeSix {
+    color: orangered;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, .4);
+    padding: 6px 8px ;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.clickmeSix:active {
+    scale: 0.95;
+}

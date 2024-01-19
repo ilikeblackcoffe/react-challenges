@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import challengesList from "../../assets/challengesList";
+import challengesList from "../../../assets/challengesLists/chapterOne/challengesList";
 import "./ChallengeThree.css";
 import { FaTrash } from 'react-icons/fa';
 
@@ -43,6 +43,7 @@ function ChallengeThree() {
               name="todoTask"
               id="todoTask"
               placeholder="write your task here"
+              autoComplete="false"
             />
           </label>
           <button onClick={addTask}>Add</button>

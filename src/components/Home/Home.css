@@ -37,7 +37,8 @@
     position: relative;
     border: transparent;
     max-width: 300px;
-    max-height: 150px;
+    max-height: 170px;
+    height: 170px;
     margin: 15.4px 15.4px ;
     padding: 10px;
     border-radius: 15px;
@@ -48,4 +49,32 @@
     cursor: pointer;
     text-decoration: underline #00D8F7;
     color: #00D8F7;
+  }
+
+  .chaptersHome {
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  .chaptersHome a {
+    text-decoration: none;
+    color: #2C4E59 ;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  
+  .chaptersHome a:hover {
+    text-decoration: underline;
+  }
+
+  .mleftAuto a {
+    margin-left: auto;
+  }
+
+  .titleDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
