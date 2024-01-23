@@ -1,0 +1,39 @@
+.genderDiv {
+    display: flex;
+    gap: 10px;
+}
+
+.c2_challengeTwoForm {
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+
+.c2_challengeTwoForm  input {
+    margin-bottom: 25px;
+    padding: 2px;
+    font-size: 16px;
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, .5);
+}
+
+.c2_challengeTwoForm  input:focus {
+    outline: none;
+}
+
+.c2_formBtn {
+    background-color: green;
+    color: #fff;
+    font-weight: 600;
+    padding: 8px;
+    border: transparent;
+    border-radius: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.c2_divBtnForm {
+    display: flex;
+    justify-content: center;
+}
